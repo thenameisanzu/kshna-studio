@@ -1,4 +1,4 @@
 @tailwind base;@tailwind components;@tailwind utilities;
-html{background:#fff;scroll-behavior:smooth;-webkit-tap-highlight-color:transparent}
-body{@apply font-sans text-ink antialiased;overflow-x:hidden}
+html{background:#fff;scroll-behavior:smooth;-webkit-tap-highlight-color:transparent;overflow-x:clip}
+body{@apply font-sans text-ink antialiased;overflow-x:clip;min-height:100vh;min-height:100dvh;-webkit-overflow-scrolling:touch}
 :focus-visible{outline:3px solid #FF6A2B;outline-offset:3px}
